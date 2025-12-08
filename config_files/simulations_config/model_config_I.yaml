@@ -1,0 +1,32 @@
+# ===============================
+# ConvLSTM network configurations 
+# ===============================
+
+# Number of stacked LSTM layers
+num_lstm_layers: 4
+
+# Dimension of hidden state in LSTM
+hidden_size: 64  
+
+# Output layer dimension
+output_size: 2  
+
+# Whether to apply sigmoid activation to output
+use_sigmoid: true  
+
+# ========================
+# ConvLSTM cell parameters
+# ========================
+
+# Size of the convolutional kernel in ConvLSTM layers
+convlstm_kernel_size: 3  
+
+# Padding applied in ConvLSTM layers to maintain spatial dimensions
+convlstm_padding: 1  
+
+# ========================
+# Decoder layer parameters
+# ========================
+
+# Kernel size for the final 2D convolutional layer in the decoder
+decoder_conv_kernel_size: 1

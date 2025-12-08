@@ -1,0 +1,42 @@
+# ========================
+# Simulation configuration
+# ========================
+
+#
+num_datasets: 9
+
+# Path to the dataset
+
+dataset_path: "dataloader/datasets/testdata/testData_150x150.npz"
+
+# Path to the trained model (.pt)
+model_path_0: "models/trainedModel_400_130x130_A.pt"
+model_path_1: "models/trainedModel_400_130x130_B.pt"
+model_path_2: "models/trainedModel_400_130x130_C.pt"
+model_path_3: "models/trainedModel_400_130x130_D.pt"
+model_path_4: "models/trainedModel_400_130x130_E.pt"
+model_path_5: "models/trainedModel_400_130x130_F.pt"
+model_path_6: "models/trainedModel_400_130x130_G.pt"
+model_path_7: "models/trainedModel_400_130x130_H.pt"
+model_path_8: "models/trainedModel_400_130x130_I.pt"
+
+# Path to the model configuration file
+model_config_path_0: "config_files/simulations_config/model_config_A.yaml"
+model_config_path_1: "config_files/simulations_config/model_config_B.yaml"
+model_config_path_2: "config_files/simulations_config/model_config_C.yaml"
+model_config_path_3: "config_files/simulations_config/model_config_D.yaml"
+model_config_path_4: "config_files/simulations_config/model_config_E.yaml"
+model_config_path_5: "config_files/simulations_config/model_config_F.yaml"
+model_config_path_6: "config_files/simulations_config/model_config_G.yaml"
+model_config_path_7: "config_files/simulations_config/model_config_H.yaml"
+model_config_path_8: "config_files/simulations_config/model_config_I.yaml"
+
+
+# Number of previous steps to include in each input sequence
+history_length: 1
+
+# Number of time steps to predict
+prediction_steps: 149
+
+# Whether to enable visualization of results
+visualization_enabled: false

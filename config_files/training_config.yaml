@@ -1,0 +1,38 @@
+# =====================
+# Dataset configuration
+# =====================
+
+# Path to the dataset (.npz file)
+dataset_path: "dataloader/datasets/trainData_400_130x130.npz"
+
+# Number of previous steps to include in each input sequence
+history_length: 2
+
+# ===================
+# Model Configuration
+# ===================
+
+# Path to the model configuration file
+model_config_path: "config_files/model_config.yaml"
+
+# Path where the trained model will be saved
+model_save_path: "models/trainedModel_400_130x130.pt"
+
+# ========================
+# Training hyperparameters
+# ========================
+
+# Number of epochs
+epochs: 100
+
+# Batch size for DataLoader
+batch_size: 16
+
+# Learning rate for optimizer
+learning_rate: 0.001
+ 
+# Early stopping patience (epochs)
+patience: 10
+
+# Fraction of data used for training (remaining for validation)
+train_split_ratio: 0.8

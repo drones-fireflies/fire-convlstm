@@ -1,0 +1,23 @@
+# ======================
+# Data genaration config
+# ======================
+
+# Number of scenarios to generate
+num_scenarios: 10
+
+# Number of time steps per scenario
+sequence_length: 149  
+
+# Simulation grid dimensions
+grid_size_x: 200      # Number of cells along X-axis
+grid_size_y: 200      # Number of cells along Y-axis
+
+# ========================
+# Environmental Parameters
+# ========================
+
+# Range of initial tree density (values between 0 and 1)
+vegetation_density_range: [0.6, 0.95]  
+
+# Wind directions
+wind_directions: [0, 6.28]  

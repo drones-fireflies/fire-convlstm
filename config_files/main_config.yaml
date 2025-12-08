@@ -1,0 +1,30 @@
+# ========================
+# Paths to data and models
+# ========================
+
+# Path to the test scenario with groud truth data (.npz)
+dataset_path: "dataloader/datasets/testdata/testData_200x200.npz"
+scenario_number: 6
+
+# Path to the trained model (.pt)
+model_path: "models/trainedModel_400_130x130_E.pt"
+
+# Path to the model configuration file
+model_config_path: "config_files/model_config.yaml"
+
+# =====================
+# Simulation parameters
+# =====================
+
+# Number of previous steps to include in each input sequence
+history_length: 1
+
+# Number of time steps to predict
+prediction_steps: 149
+
+# ======================
+# Visualization settings
+# ======================
+
+# Whether to enable visualization of results
+visualization_enabled: true

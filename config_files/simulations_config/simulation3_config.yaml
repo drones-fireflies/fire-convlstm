@@ -1,0 +1,32 @@
+# ========================
+# Simulation configuration
+# ========================
+
+# Path to the dataset
+
+#
+num_datasets: 4
+
+dataset_path: "dataloader/datasets/testdata/testData_150x150.npz"
+
+# Path to the trained model (.pt)
+model_path_0: "models/trainedModel_400_130x130_l1.pt"
+model_path_1: "models/trainedModel_400_130x130_l2.pt"
+model_path_2: "models/trainedModel_400_130x130_l3.pt"
+model_path_3: "models/trainedModel_400_130x130_l4.pt"
+
+# Path to the model configuration file
+model_config_path: "config_files/simulations_config/model_config_A.yaml"
+
+# Number of previous steps to include in each input sequence
+history_length_0: 1
+history_length_1: 2
+history_length_2: 3
+history_length_3: 4
+history_length_4: 5
+
+# Number of time steps to predict
+prediction_steps: 149
+
+# Whether to enable visualization of results
+visualization_enabled: false
