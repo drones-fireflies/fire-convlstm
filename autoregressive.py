@@ -59,7 +59,6 @@ def autoregressive_predict(model, initial_sequence, true_sequence, steps, histor
 
     start_time = time.time()
 
-    # Disabling grad so we don't build a huge graph
     with torch.no_grad():
 
         for step in range(steps - history_length):
@@ -88,7 +87,6 @@ def autoregressive_predict(model, initial_sequence, true_sequence, steps, histor
                 dim=0,
             )
 
-             # Optional visualization (guard for true_sequence length)
             if visualize and step < len(true_sequence):
 
                 FireVisualizer._update(
