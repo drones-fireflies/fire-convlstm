@@ -4,7 +4,7 @@
 
 ## Overview
 
-**fire-convlstm** is an open-source framework for **fast wildfire spread prediction**
+**Fire-ConvLSTM** is an open-source framework for **fast wildfire spread prediction**
 based on **Convolutional Long Short-Term Memory (ConvLSTM)** networks.
 
 The model is designed to approximate a wildfire propagation simulator with
