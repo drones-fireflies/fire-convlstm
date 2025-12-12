@@ -1,9 +1,9 @@
-[![DOI]()]()
+```[![DOI]()]()```
 ![Language](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
  
 
 
-## Overview
+Overview
 
 **fire-convlstm** is an open-source framework for **fast wildfire spread prediction**
 based on **Convolutional Long Short-Term Memory (ConvLSTM)** networks.
@@ -14,9 +14,11 @@ control, and reinforcement learning loops**, particularly for **UAV-based wildfi
 
 ---
 
-## 🔗 Key Links
+## Key Links
 
-- 📄 Paper: -----
 - 📦 Dataset instructions: `dataloader/README.md`
+- 📄 Paper: -----
 
 ---
+
+## Citation
