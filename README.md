@@ -8,8 +8,7 @@
 based on **Convolutional Long Short-Term Memory (ConvLSTM)** networks.
 
 The model is designed to approximate a wildfire propagation simulator with
-**faster runtime**, enabling integration into **real-time guidance,
-control, and reinforcement learning loops**, particularly for **UAV-based wildfire monitoring**.
+**faster runtime**, enabling integration into **guidance, and reinforcement learning loops**, particularly for **UAV-based wildfire monitoring**.
 
 ---
 
