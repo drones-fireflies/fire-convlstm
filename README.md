@@ -69,6 +69,8 @@ cd fire-convlstm
 python3 main.py
 ```
 
+---
+
 ## 📚 Citation
 
 ```bash
