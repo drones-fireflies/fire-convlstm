@@ -31,7 +31,7 @@ Generated using a **Cellular Automata wildfire simulator** with:
 
 ---
 
-## 🔁 Auto-Regressive Prediction
+## 🔁 Auto-Regressive prediction
 
 The model predicts wildfire spread iteratively:
 
@@ -67,13 +67,13 @@ The model predicts wildfire spread iteratively:
 ```bash
 git clone https://github.com/drones-fireflies/fire-convlstm.git
 cd fire-convlstm
-pip install -r requirements.txt
+python3 main.py
 ```
 
 ## 📚 Citation
 
 ```bash
-@inproceedings{chakraa2026accelerating,
+@inproceedings{chakraa2026,
   title={Accelerating Wildfire Spread Prediction for Guidance: A ConvLSTM Deep Learning Approach},
   author={Chakraa, Hamza and Bronz, Murat},
   booktitle={AIAA SCITECH 2026 Forum},
