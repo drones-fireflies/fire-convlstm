@@ -56,7 +56,7 @@ The model predicts wildfire spread iteratively:
 ✔ Computational time required to generate a full propagation for different convLSTM configurations, compared with the time required by the original simulator.
 
 <p align="center">
-  <img src="assets/acceleration.png" width="700"/>
+  <img src="assets/acceleration.png" width="400"/>
 </p>
 
 ---
