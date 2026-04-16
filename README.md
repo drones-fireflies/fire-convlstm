@@ -45,7 +45,7 @@ The model predicts wildfire spread iteratively:
 ## 🌍 Fire propagation example: prediction with convLSTM vs. ground truth
 
 <p align="center">
-  <img src="assets/fire_prediction.pdf" width="600"/>
+  <img src="assets/fire_prediction.png" width="600"/>
 </p>
 
 ---
@@ -56,7 +56,7 @@ The model predicts wildfire spread iteratively:
 ✔ Computational time required to generate a full propagation for different convLSTM configurations, compared with the time required by the original simulator.
 
 <p align="center">
-  <img src="assets/acceleration.pdf" width="700"/>
+  <img src="assets/acceleration.png" width="700"/>
 </p>
 
 ---
