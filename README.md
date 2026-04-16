@@ -60,7 +60,6 @@ The model predicts wildfire spread iteratively:
 </p>
 
 ---
----
 
 ## 💻 Installation
 
