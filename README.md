@@ -72,6 +72,7 @@ pip install -r requirements.txt
 
 ## 📚 Citation
 
+```bash
 @inproceedings{chakraa2026accelerating,
   title={Accelerating Wildfire Spread Prediction for Guidance: A ConvLSTM Deep Learning Approach},
   author={Chakraa, Hamza and Bronz, Murat},
@@ -80,4 +81,4 @@ pip install -r requirements.txt
   publisher={American Institute of Aeronautics and Astronautics (AIAA)},
   doi={10.2514/6.2026-0423},
 }
-
+```
