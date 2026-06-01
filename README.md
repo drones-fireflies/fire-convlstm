@@ -65,7 +65,7 @@ The model predicts wildfire spread iteratively:
 
 ```bash
 git clone https://github.com/drones-fireflies/fire-convlstm.git
-cd fire-convlstm
+cd fire_convlstm
 python3 main.py
 ```
 
