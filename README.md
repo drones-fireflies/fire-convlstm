@@ -31,18 +31,18 @@ Generated using a **Cellular Automata wildfire simulator** with:
 
 ---
 
-## 🔁 Auto-Regressive prediction
+## Auto-Regressive prediction
 
 The model predicts wildfire spread iteratively:
 
-1. Input initial fire frames  
-2. Predict next frame  
-3. Feed prediction back  
-4. Repeat for long-term simulation  
+1. Input initial fire frames
+2. Predict next frame
+3. Feed prediction back
+4. Repeat for long-term simulation
 
 ---
 
-## 🌍 Fire propagation example: prediction with convLSTM vs. ground truth
+## Fire propagation example: prediction with convLSTM vs. ground truth
 
 <p align="center">
   <img src="assets/fire_prediction.png" width="600"/>
@@ -51,7 +51,7 @@ The model predicts wildfire spread iteratively:
 ---
 
 
-## 📊 Performance
+## Performance
 
 ✔ Computational time required to generate a full propagation for different convLSTM configurations, compared with the time required by the original simulator.
 
@@ -61,7 +61,7 @@ The model predicts wildfire spread iteratively:
 
 ---
 
-## 💻 Installation
+## Installation
 
 ```bash
 git clone https://github.com/drones-fireflies/fire-convlstm.git
@@ -71,7 +71,7 @@ python3 main.py
 
 ---
 
-## 📚 Citation
+## Citation
 
 ```bash
 @inproceedings{chakraa2026,
