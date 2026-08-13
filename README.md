@@ -5,7 +5,7 @@
 
 ---
 
-## 🚀 Overview
+## Overview
 
 **Fire-ConvLSTM** is a deep learning framework for **fast wildfire spread prediction** using **Convolutional LSTM (ConvLSTM)** networks.
 
@@ -18,7 +18,7 @@ It learns to approximate a wildfire simulator and enables:
 
 ---
 
-## 🧪 Dataset
+## Dataset
 
 Generated using a **Cellular Automata wildfire simulator** with:
 
@@ -27,7 +27,7 @@ Generated using a **Cellular Automata wildfire simulator** with:
 - ⛰ Elevation & slope
 - 💧 Moisture
 
-📦 See: `dataloader/README.md`
+See: `dataloader/README.md`
 
 ---
 
